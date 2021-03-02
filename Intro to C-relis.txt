@@ -1,0 +1,45 @@
+| Hi, my name is C-relis. I'm a new programming language.
+
+| With me you can create and use numerical variables called 'tiv's, they even can contain floating-point numbers.
+| Just declare a new variable typing 'tiv' at the beginning of the line, then type the name of the variable,
+| then use this '<-' operator for assigning the value of the right side to your variable, for example: 'tiv MyTiv <- 512'.
+| Change the value of the variable simply using the same logic without typing 'tiv' at the beginning, for example: 'MyTiv <- 1024'.
+| If you've already declared a variable without assigning a value to it, it will receive a value of 0 by default.
+
+| With me you can also make arithmetical operations and assign the result to a variable,
+| for example: 'tiv a <- 512', 'tiv b <- a * 2'.
+| CAUTION! Make arithmetical operations only with 2 operands!
+
+| If you want to print a text or the value of a declared variable, just type 'tpi' at the beginning of the line,
+| then use square brackets if you want to print a text, or use curly brackets for printing the value of a variable,
+| for example: 'tpi [Hello World!]', 'tpi {MyTiv}'.
+| Type ':' RIGHT AFTER the brackets if you want to end the line, for example: 'tpi [Hello World!]:', 'tpi {MyTiv}:'.
+| For leaving the line empty just type 'tpi []:' or 'tpi {}:'.
+
+| If you want to operate or omit statements if a certain condition is true or false, just type 'xosqi yete' at the beginning,
+| then use square brackets for checking the condition, for example 'xosqi yete [MyTiv M 25]'.
+| Don't forget to type the operands and the brackets RIGHT AFTER each other as in the example above.
+| NOTE! 'M' means "greater than",          'P' means "less than",          'H' means "equal to",
+|       'MH' means "greater or equal to",  'PH' means "less or equal to",  'AH' means "not equal to".
+| DON'T FORGET to use '>' at the end of the statement, until which you want to operate or omit, otherwise all subsequent
+| statements will be operated or omited.
+
+| With me you can also create loops. Just type 'mti fra' at the beginning of the line, then use a condition as described above,
+| for example: 'mti fra [MyTiv PH a]'.
+| DON'T FORGET to use '>' at the end of the statement, until which you want to iterate or omit, otherwise the loop will
+| never end if the condition is true or the execution will end if the condition is false.
+| RECOMMENDED! Be careful to the condition of a loop, if it's true and never changes during the iteration,
+| the loop will never end.
+
+| Use '|' for your comments in the line. If it's used after a space or at the beginning of the line, the interpreter
+| will omit its continuation besides when it's used in the text to be printed, for example: 'tpi [Hello |World]'.
+
+| NOTE! You can use as much spaces instead of only one as you want,
+| for example: '  mti  fra    [a   M  b] ', '    a   <-  10     >   |    comment   '.
+
+| FINAL NOTE! I'm a case-sensisive language, so be careful when typing,
+| but DON'T WORRY, you'll be informed about the errors and their lines.
+
+| Feel free to interpret even this text file. It must print 'Hello World!'.
+
+tpi [Hello World!]:

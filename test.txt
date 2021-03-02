@@ -1,0 +1,28 @@
+
+
+
+   tiv   d  <-   -88
+   tiv u <-  7
+tiv z
+tiv a <- z * 9
+tiv q <- 7
+
+
+tpi [  a is: ]
+tpi {a}:
+|comment
+
+               |comment
+
+mti fra [u   PH    10]
+tpi [u is: ]
+tpi {u}: |comment
+u <- u + 1   >
+tpi []:
+  xosqi     yete   [a PH   11]
+tpi [hello]
+tpi [ world]:
+tpi [hello    |comment |  world]:   >    |comment
+tpi [bye ]:
+
+tiv 8ds <- 4
