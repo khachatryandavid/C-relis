@@ -1,6 +1,4 @@
 #include <iostream>
-#include <string>
-#include <vector>
 #include "Service.h"
 
 int main()
@@ -14,4 +12,5 @@ int main()
     {
         InterpretC_relis(myfile);
     }
+    return 0;
 }
